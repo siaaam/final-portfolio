@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 
 const PCNav = () => {
   const router = useRouter();
-  console.log(router.pathname);
   const { setTheme, resolvedTheme } = useTheme();
 
   return (

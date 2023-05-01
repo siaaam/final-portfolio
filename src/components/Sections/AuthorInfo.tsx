@@ -11,7 +11,7 @@ const AuthorInfo = () => {
           <h2 className="text-slate-900 dark:text-slate-200 mb-1 md:mb-2">
             Hey, I'm Siam
           </h2>
-          <p className="dark:text-slate-300">
+          <p className="dark:text-slate-300 md:max-w-2xl">
             Welcome to my digital nook. I'm a self-taught web developer and
             here, I share my thoughts and what I've learned along the way.
           </p>
