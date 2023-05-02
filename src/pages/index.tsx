@@ -1,3 +1,4 @@
+import Line from "@components/Line";
 import AuthorInfo from "@components/Sections/AuthorInfo";
 import RecentBlogs from "@components/Sections/RecentBlogs";
 import RecentNotes from "@components/Sections/RecentNotes";
@@ -10,6 +11,7 @@ export default function Home() {
       <RecentNotes />
       <RecentBlogs />
       <RecentProjects />
+      {/* <Line /> */}
     </>
   );
 }

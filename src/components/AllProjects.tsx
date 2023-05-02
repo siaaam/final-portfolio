@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "@components/ProjectCard";
 import projects from "src/data/projects/projects";
 
-const RecentProjects = () => {
+const AllProjects = () => {
   return (
     <section className="pb-10">
       <div className="pb-10">
@@ -25,4 +25,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default AllProjects;

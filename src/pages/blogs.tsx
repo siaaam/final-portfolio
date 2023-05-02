@@ -1,7 +1,8 @@
+import AllBlogs from "@components/AllBlogs";
 import React from "react";
 
 const blogs = () => {
-  return <div>Blogs</div>;
+  return <AllBlogs />;
 };
 
 export default blogs;
