@@ -5,15 +5,18 @@ const RecentNotes = () => {
   return (
     <section className="pb-20">
       <div className="pb-10">
-        <h3>Recent Notes</h3>
+        <h2>Recent Notes</h2>
       </div>
       <div className="space-y-5 md:space-y-7">
         {notes.slice(0, 4).map((note) => (
           <div key={note.id} className="flex justify-between items-center">
             <div>
-              <h4>{note.title}</h4>
-              <span className="text-xs md:text-sm">{note.description}</span>
+              <h3 className="font-bold mb-2 	">{note.title}</h3>
+              <span className="text-sm md:text-sm font-medium">
+                {note.description}
+              </span>
             </div>
+
             <p>{note.tag}</p>
           </div>
         ))}
