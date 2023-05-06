@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import notes from "src/data/notes/notesData";
 
@@ -22,9 +23,12 @@ const RecentNotes = () => {
         ))}
       </div>
       <div className="relative mt-8">
-        <button className="border-b-2 px-0.5 h-6 border-black dark:border-white">
+        <Link
+          href={"/notes"}
+          className="border-b-2 px-0.5 h-6 border-black dark:border-white"
+        >
           Read All Notes
-        </button>
+        </Link>
       </div>
     </section>
   );

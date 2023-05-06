@@ -1,8 +1,8 @@
 import AllProjects from "@components/AllProjects";
 import React from "react";
 
-const projects = () => {
+const index = () => {
   return <AllProjects />;
 };
 
-export default projects;
+export default index;

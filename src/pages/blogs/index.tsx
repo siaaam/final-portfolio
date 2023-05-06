@@ -1,8 +1,8 @@
 import AllBlogs from "@components/AllBlogs";
 import React from "react";
 
-const blogs = () => {
+const index = () => {
   return <AllBlogs />;
 };
 
-export default blogs;
+export default index;
