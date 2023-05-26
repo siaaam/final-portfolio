@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
-import { RxCross2 } from "react-icons/rx";
 import { useTheme } from "next-themes";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
+import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 import NavContext from "src/context/Navcontext";
 
 const MobileNav = () => {
